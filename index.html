@@ -35,21 +35,58 @@
       <section id="stay">
         <h2>Find the perfect vacation rental</h2>
         <!-- Create a form here -->
+        <div class="group-form">
+          <form class="item">
+            <label for="location" >Location</label>
+            <input
+              id="location"
+              type="text"
+              placeholder="Search destination"
+              />
+          </form>
+          <form class="item">
+            <label for="arrive">Arrive</label>
+            <input 
+              id="arrive"
+              type="date"
+              />
+          </form>
+          <form class="item">
+            <label for="depart">Depart</label>
+            <input 
+              id="depart"
+              type="date"
+              />
+          </form>
+          <form class="item">
+            <label for="type">Type</label>
+            <select name="type" id="type" size=1>
+              <option value="apartment">Apartment</option>
+              <option value="barn">Barn</option>
+              <option value="castle">Castle</option>
+              <option value="houseboat">Houseboat</option>
+              <option value="tinyhouse">Tiny House</option>
+              <option value="yacht">Yacht</option>
+              <option value="yurt">Yurt</option>
+            </select>
+          </form>
+        </div>
       </section>
 
       <!-- About -->
       <section id="about" class="alternate-background">
         <h2>About</h2>
-
-        <img
-          src="images/vacation-rental-pool.png"
-          alt="Thinkfulbnb - Vacation rental pool"
-        />
-
-        <img
-          src="images/vacation-rental-inside-stone.png"
-          alt="Thinkfulbnb - Vacation rental inside stone"
-        />
+          <div class="group-about">
+            <img
+              src="images/vacation-rental-pool.png"
+              alt="Thinkfulbnb - Vacation rental pool"
+            />
+  
+            <img
+              src="images/vacation-rental-inside-stone.png"
+              alt="Thinkfulbnb - Vacation rental inside stone"
+            />
+          </div>
 
         <p>
           Fusce porta odio nunc, eget pretium massa rutrum sit amet. Etiam

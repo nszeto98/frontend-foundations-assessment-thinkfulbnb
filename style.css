@@ -39,11 +39,23 @@ main img {
 .group {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+.group-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.group-about {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
 }
 
 .item {
   flex: 1;
   margin: 10px;
+  flex-grow: 1;
 }
 
 .item-double {
@@ -117,3 +129,4 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+/* @media all and (min-width: 480px) */
