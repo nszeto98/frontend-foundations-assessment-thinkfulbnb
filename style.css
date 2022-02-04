@@ -42,6 +42,7 @@ main img {
 }
 
 .item {
+  display: flex;
   flex: 1;
   margin: 10px;
 }
@@ -99,13 +100,17 @@ form {
 
 form label {
   font-weight: bold;
+  width: 35%;
+  align-self: center;
+  position: relative;
+  top: -4px;
 }
 
 form select,
 form input {
-  margin-bottom: 20px;
-  width: 65%;
-  float: right;
+  flex: 1;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 
 form button {
